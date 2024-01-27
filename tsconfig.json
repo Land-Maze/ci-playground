@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "strict": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "paths": {
+      "hono": ["./node_modules/hono"],
+      "*": ["./node_modules/*"]
+    }
+  }
+}
